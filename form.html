@@ -18,39 +18,46 @@
     <script>(function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/yvqft4t9';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>
   </head>
   <body>
-    <h2>Fill in the fields below:</h2>
-    <form onchange="func()" action="site.html" name="form" method="get" autocomplete="off">
-      Website FULL URL:<br>
-      <input type="text" name="website">
-      <br>
-      Desired title:<br>
-      <input type="text" name="title">
-      <br>
-      <input id="check" type="checkbox" name="autoicon" checked> Use website favicon
-      <br>
-      <div id="icoText">
-      Icon url (image must be exactly square):<br>
-      <input id="ico" type="text" name="icon">
-      </div>
-      <br><br>
-      <input type="submit" value="Submit">
-      <input id="id" type="text" name="id" style="display: none;"></input>
-    </form>
-    <script>
-    var d = new Date();
-    document.getElementById("id").value = d.getTime();
-    func();
-    function func() {
-        if (document.getElementById("check").checked === true) {
-          document.getElementById("ico").disabled = "disabled";
-          document.getElementById("icoText").style.display = "none";
-        }
-        else {
-          document.getElementById("ico").removeAttribute("disabled");
-          document.getElementById("icoText").style.display = "inline-block";
-        }
-    }
-    </script>
+    <div class="page" id="page-welcome">
+      <h1>IconMagic</h1>
+      <p>A way to give websites icons on your Apple device home screen.</p>
+      <a href="/iconmagic/form"><h3 id="button">Get Started</h3></a>
+    </div>
+    <div class="page" id="page-form">
+      <h2>Fill in the fields below:</h2>
+      <form onchange="func()" action="site.html" name="form" method="get" autocomplete="off">
+        Website FULL URL:<br>
+        <input type="text" name="website">
+        <br>
+        Desired title:<br>
+        <input type="text" name="title">
+        <br>
+        <input id="check" type="checkbox" name="autoicon" checked> Use website favicon
+        <br>
+        <div id="icoText">
+        Icon url (image must be exactly square):<br>
+        <input id="ico" type="text" name="icon">
+        </div>
+        <br><br>
+        <input type="submit" value="Submit">
+        <input id="id" type="text" name="id" style="display: none;"></input>
+      </form>
+      <script>
+      var d = new Date();
+      document.getElementById("id").value = d.getTime();
+      func();
+      function func() {
+          if (document.getElementById("check").checked === true) {
+            document.getElementById("ico").disabled = "disabled";
+            document.getElementById("icoText").style.display = "none";
+          }
+          else {
+            document.getElementById("ico").removeAttribute("disabled");
+            document.getElementById("icoText").style.display = "inline-block";
+          }
+      }
+      </script>
+    </div>
     <!-- Get Site Control Code for http://booligoosh.github.io/ -->
 <script>
   (function (w,i,d,g,e,t,s) {w[d] = w[d]||[];t= i.createElement(g);
