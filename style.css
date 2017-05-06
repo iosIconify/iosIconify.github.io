@@ -15,12 +15,6 @@ body {
   color: white;
   text-align: center;
 }
-#button {
-  padding: 10px;
-  width: auto;
-  text-decoration: none;
-  color: white;
-}
 button {
   margin-bottom: 1em;
   width: 100%;
@@ -66,7 +60,7 @@ input[type="text"], textarea, keygen {
     text-align: center;
     color: rgba(255,255,255,0.75);
 }
-input[type="submit"] {
+input[type="submit"], .button {
   margin-bottom: 1em;
   width: 1em;
   font-size: 1em;
