@@ -1,5 +1,6 @@
 # IconMagic
-This tool adds apple-touch-icons to websites without them.
+This is a snazzy utility that adds custom iOS icons to websites without them.
+Please share this to all your friends, as it is a genuinely useful website.
 
 ![IconMagic](img/main.png)
 
