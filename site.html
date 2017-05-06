@@ -2,7 +2,7 @@
 <html>
   <head>
     <title id="pagetitle"></title>
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="style.css">
     <link id="ati57" rel="apple-touch-icon" sizes="57x57" href="">
     <link id="ati72" rel="apple-touch-icon" sizes="72x72" href="">
     <link id="ati114" rel="apple-touch-icon" sizes="114x114" href="">
@@ -74,7 +74,9 @@
   <body>
     <h1>Add this to your home screen</h1>
     <h2>Once you have done it, click the button below:</h2>
-    <button id="done" onclick="added()">I have added this to my home screen</button>
+    <form action="javascript:void(0)">
+      <input type="submit" value="I have added this to my home screen" onclick="added()" id="done">
+    </form>
     <script></script>
   </body>
 </html>
