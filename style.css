@@ -75,9 +75,8 @@ input[type="submit"], input[type="button"] {
 }
 
 #done {
-  font-size: 0.65em !important;
+  font-size: 3em !important;
   width: 90% !important;
-  height: 2em !important;
 }
 
 .button {
