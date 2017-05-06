@@ -7,3 +7,9 @@ function goToPage(str) {
 }
 
 $('#get_started').click( function(e) {e.preventDefault(); goToPage('form'); return false; } );
+
+function eventTrigger (e) {
+    if (! e)
+        e = event;
+    return e.target || e.srcElement;
+}
