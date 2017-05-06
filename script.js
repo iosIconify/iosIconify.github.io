@@ -5,3 +5,5 @@ function goToPage(str) {
   }
   document.getElementById('page-' + str).style = 'display: block;';
 }
+
+$('#get_started').click( function(e) {e.preventDefault(); goToPage('form'); return false; } );
