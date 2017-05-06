@@ -60,7 +60,7 @@ input[type="text"], textarea, keygen {
     text-align: center;
     color: rgba(255,255,255,0.75);
 }
-input[type="submit"], .button {
+input[type="submit"], input[type="button"] {
   margin-bottom: 1em;
   width: 1em;
   font-size: 1em;
