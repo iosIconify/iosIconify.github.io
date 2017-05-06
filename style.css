@@ -79,3 +79,62 @@ input[type="submit"], input[type="button"] {
   width: 90% !important;
   height: 2em !important;
 }
+
+.button {
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 1em;
+    border-style: solid;
+    border-color: white;
+    border-width: 0.03em;
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+    color: rgba(255,255,255,0.75);
+    font-size: 0.9em;
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0em 0em 0em 0em;
+    font: 11px system-ui;
+    align-items: flex-start;
+    text-align: center;
+    cursor: default;
+    color: buttontext;
+    background-color: buttonface;
+    box-sizing: border-box;
+    padding: 2px 6px 3px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: buttonface;
+    border-image: initial;
+    /* -webkit-appearance: push-button; */
+    user-select: none;
+    white-space: pre;
+    -webkit-appearance: textfield;
+    background-color: white;
+    /* -webkit-rtl-ordering: logical; */
+    user-select: text;
+    cursor: auto;
+    padding: 1px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
+    /* -webkit-writing-mode: horizontal-tb; */
+    margin-bottom: 1em;
+    width: 1em;
+    font-size: /*1em*/5em;/* 1EM IN A FORM!!!!*/
+    height: 1em;
+    box-sizing: content-box;
+    background-color: rgba(255,255,0,0.5);
+    color: rgba(0,0,0,0.75);
+    padding: 0.75em;
+    width: 50%;
+    padding-top: 0.5em;
+    padding-bottom: 0.85em;
+}
