@@ -60,7 +60,7 @@ input[type="text"], textarea, keygen {
     text-align: center;
     color: rgba(255,255,255,0.75);
 }
-input[type="submit"], .button {
+input[type="submit"] {
   margin-bottom: 1em;
   width: 1em;
   font-size: 1em;
@@ -78,4 +78,37 @@ input[type="submit"], .button {
   font-size: 0.65em !important;
   width: 90% !important;
   height: 2em !important;
+}
+
+
+.button {
+    margin-bottom: 1em;
+    /* width: 1em; */
+    font-size: 1em;
+    height: 1em;
+    box-sizing: content-box;
+    background-color: rgba(255,255,0,0.5);
+    color: rgba(0,0,0,0.75);
+    padding: 0.75em;
+    width: 50%;
+    padding-top: 0.5em;
+    padding-bottom: 0.85em;
+    border-radius: 1em;
+    border-style: solid;
+    border-color: white;
+    border-width: 0.03em;
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+    user-select: none;
+    white-space: pre;
+    cursor: default;
+    border-image: initial;
+    align-items: flex-start;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
 }
