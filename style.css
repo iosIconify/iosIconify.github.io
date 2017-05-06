@@ -6,7 +6,7 @@ body {
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url("https://cloud.githubusercontent.com/assets/14034891/11740208/1a5d43e6-a045-11e5-9803-dae187d0bfd8.png");
+    url("img/background.png");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
