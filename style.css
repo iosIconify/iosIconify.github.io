@@ -100,7 +100,6 @@ input[type="submit"], input[type="button"] {
     display: inline-block;
     text-align: start;
     margin: 0em 0em 0em 0em;
-    font: 11px system-ui;
     align-items: flex-start;
     text-align: center;
     cursor: default;
