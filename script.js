@@ -3,18 +3,10 @@ function goToPage(str) {
   //alert(document.getElementsByClassName('page'));
   var pages = document.getElementsByTagName('page');
   for (var i = 0; i < pages.length; i++) {
-    pages[i].style = 'visibility: hidden; width: 0; height: 0;';
+    pages[i].style.display = 'none';
     alert(pages[i].style);
   }
-  document.getElementById('page-' + str).style = 'visibility: visible;';
-}
-
-$('#get_started').click( function(e) {e.preventDefault(); goToPage('form'); return false; } );
-
-function eventTrigger (e) {
-    if (! e)
-        e = event;
-    return e.target || e.srcElement;
+  document.getElementById('page-' + str).style.display = 'block';
 }
 
 goToPage('welcome');
