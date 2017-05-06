@@ -1,6 +1,6 @@
 function goToPage(str) {
   alert('hi!');
-  alert(document.getElementsByTagName('page'));
+  alert(document.getElementsByClassName('page'));
   var pages = document.getElementsByTagName('page');
   for (var i = 0; i < pages.length; i++) {
     pages[i].style = 'visibility: hidden; width: 0; height: 0;';
