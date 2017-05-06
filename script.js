@@ -1,7 +1,7 @@
 function goToPage(str) {
   var pages = document.getElementsByClassName('page');
   for (var i = 0; i < pages.length; i++) {
-    pages[i].style = 'visibility: hidden;width=0;height=0;';
+    pages[i].style = 'visibility: hidden; width: 0; height: 0;';
   }
   document.getElementById('page-' + str).style = 'visibility: visible;';
 }
@@ -13,3 +13,5 @@ function eventTrigger (e) {
         e = event;
     return e.target || e.srcElement;
 }
+
+goToPage('welcome');
