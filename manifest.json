@@ -1,0 +1,14 @@
+{
+  "name": "iOS iConify",
+  "short_name": "iOS iConify",
+  "icons": [{
+        "src": "/img/apple-touch-icons/144x144.png",
+        "type": "image/png",
+        "sizes": "144x144"
+      }],
+  "start_url": "/",
+  "scope": "/",
+  "orientation": "portrait",
+  "background_color": "#ffff00",
+  "theme_color": "#ffff00"
+}
